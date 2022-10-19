@@ -7,7 +7,11 @@ const CreatePostForm = (props) => {
 
     function handleSubmit(formEvent){
         formEvent.preventDefault();
-        setPosts([{author: author, postText: postText}])
+        let newPost = {
+            author: author,
+            postText: postText,
+        }
+        props.addNewPost(newPost)
 
     }
 
