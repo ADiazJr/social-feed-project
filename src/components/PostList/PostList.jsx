@@ -14,5 +14,3 @@ const PostList = (props) => {
 }
  
 export default PostList;
-
-{/* <Post name='' color='' person='' /> */}
