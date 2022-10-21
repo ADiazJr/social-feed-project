@@ -1,0 +1,61 @@
+button {
+    margin: .25rem;
+}
+
+button:active {
+    background-color: rgb(213, 171, 116);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.neutral{
+    background-color: rgb(213, 171, 116);
+} 
+
+.liked{
+    background-color: blue;
+}
+
+.disliked{
+    background-color: red;
+}
+
+.tracker {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+}
+
+.list {
+    border: 1px;
+    border-style: solid;
+    padding: 1em;
+    background-color: white;
+    
+}
+
+.text {
+    margin: .5em;
+}
+
+.list-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 10rem;
+    /* background-color: #c0fff1; */
+}
+
+.form {
+    border: 1px;
+    border-style: solid;
+    margin: 1rem;
+    padding: 1em;
+    background-color: white;
+    
+    
+}
+
+.background {
+    padding: 1em;
+    background-color: #cbfef3;
+}

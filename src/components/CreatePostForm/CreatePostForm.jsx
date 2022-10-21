@@ -16,10 +16,10 @@ const CreatePostForm = (props) => {
     }
 
     return ( 
-        <form onSubmit={handleSubmit}>
-            <label>Name</label>
+        <form className="form" onSubmit={handleSubmit}>
+            <label className="text">Name</label>
             <input type={'text'} onChange={(space) => setAuthor(space.target.value)} value={author} />
-            <label>Post</label>
+            <label className="text">Post</label>
             <input type={'text'} onChange={(space) => setPostText(space.target.value)} value={postText} />
             <button type="submit">Create</button>
         </form>

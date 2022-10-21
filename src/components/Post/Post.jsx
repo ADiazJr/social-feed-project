@@ -1,5 +1,4 @@
 import { useState } from "react";
-import './Post.css'
 
 
 const Post = (props) => {
@@ -29,7 +28,7 @@ const Post = (props) => {
     }
 
     return (
-            <div>
+            <div className="list">
                 <p>{props.author}</p>
                 <p>{props.postText}</p>
                 <button className={likeClass} onClick={handleClickLike}>Like</button>
